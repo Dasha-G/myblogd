@@ -1,0 +1,27 @@
+.banner {
+    height: 600px;
+    width: 100%;
+}
+
+.banner1 {
+    background: url('/static/programm.jpeg') no-repeat scroll right center / cover;
+}
+
+.banner2 {
+    background: url('/static/dance.jpeg') no-repeat scroll right center / cover;
+}
+
+.banner3 {
+    background: url('/static/eengl.jpeg') no-repeat scroll right center / cover;
+}
+
+.category_content {
+    min-height: 400px;
+}
+
+body {
+    background-image: url("bbegg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(119, 60, 33, 0.826);
+}

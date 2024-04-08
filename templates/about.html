@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+{% include "banner.html" %}
+{% block body %}
+<h2 class="my-4 ms-3">Це мій блог</h2>
+<div class="row">
+    <div class="col-lg-6">
+        <p>  </p>
+        <p>{{user.description}}</p>
+        <div class="card text-bg-dark" style="width: 19rem;">
+            <img src="/static/sobor.jpeg" class="card-img-top" alt="Фото">
+            <div class="card-body">
+              <p class="card-text">Берлінський кафедральний собор</p>
+            </div>
+        </div>
+        <p>  </p>
+        <div class="card text-bg-dark" style="width: 19rem;">
+            <img src="/static/karpaty.jpeg" class="card-img-top" alt="Фото">
+            <div class="card-body">
+              <p class="card-text">Карпати</p>
+            </div>
+        </div>
+        <p>  </p>
+        <div class="card text-bg-dark" style="width: 19rem;">
+            <img src="/static/balt2.jpg" height="200" class="card-img-top" alt="Фото">
+            <div class="card-body">
+              <p class="card-text">Балтійське море</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <img src="/static/{{user.image}}" alt="Фото">
+    </div>
+</div>
+
+{% endblock %}
